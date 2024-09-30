@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/pickFileButton"
+        android:layout_width="168dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="100dp"
+
+        android:text="Select GPX File" />
+
+    <Button
+        android:id="@+id/viewStatsButton"
+        android:layout_width="153dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/pickFileButton"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="20dp"
+        android:text="View Stats" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-600dp"
+        android:text="Input GPX File.                                                Tap View Stats to see your average and total stats"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
+
